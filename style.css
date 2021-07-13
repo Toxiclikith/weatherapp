@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 0;
+    background: #222;
+    font-family: 'open sans', sans-serif;
+    background-image: url('https:/source.unsplash.com/1600x900/?waterfall');
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 400px;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.searchBar {
+    border-radius: 18px;
+    outline: none;
+    padding: o.8em;
+    background-color: #7c7c7c2d;
+    color: white;
+    width: calc(100% - 100px);
+    height: 30px;
+}
+button {
+    background-color: #7c7c7c2d;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.822);
+    height: 30px;
+}
+.description {
+    text-transform: capitalize;
+}
+.weather.loading {
+    visibility: hidden;
+}
+.weather.loading {
+    visibility: visible;
+    content: "Loading....";
+    color: white;
+}
+
+
+h4 {
+    margin: 0vh;
+    font-size: 30px;
+}
